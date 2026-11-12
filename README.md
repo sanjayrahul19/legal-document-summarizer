@@ -28,7 +28,7 @@ It is used to generate summaries from input text.
 ```text
 legal-summarizer/
 │
-├── .venv/
+├── .venvs/
 │
 ├── app/
 │   ├── __init__.py
@@ -89,7 +89,7 @@ cd legal-summarizer
 ### Step 2: Create a virtual environment
 
 ```bash
-python3 -m venv .venv
+python3 -m venv .venvs
 ```
 
 ### Step 3: Activate the virtual environment
@@ -97,7 +97,7 @@ python3 -m venv .venv
 For macOS/Linux:
 
 ```bash
-source .venv/bin/activate
+source .venvs/bin/activate
 ```
 
 ### Step 4: Install dependencies
